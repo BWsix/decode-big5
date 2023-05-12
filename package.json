@@ -1,0 +1,34 @@
+{
+  "name": "decode-big5",
+  "version": "0.0.0",
+  "description": "A simple tool to decode big5 buffer to utf8 string.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "yarn build && changeset publish",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BWsix/decode-big5.git"
+  },
+  "keywords": [
+    "decode",
+    "big5",
+    "Chinese"
+  ],
+  "author": "BWsix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BWsix/decode-big5/issues"
+  },
+  "homepage": "https://github.com/BWsix/decode-big5#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "iconv-lite": "^0.6.3",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
