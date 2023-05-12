@@ -1,6 +1,6 @@
 {
   "name": "decode-big5",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple tool to decode big5 buffer to utf8 string.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -17,7 +17,10 @@
   "keywords": [
     "decode",
     "big5",
-    "Chinese"
+    "big-5",
+    "chinese",
+    "convert",
+    "decode-big5"
   ],
   "author": "BWsix",
   "license": "MIT",
