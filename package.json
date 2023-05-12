@@ -1,6 +1,6 @@
 {
   "name": "decode-big5",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple tool to decode big5 buffer to utf8 string.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
