@@ -1,13 +1,13 @@
 {
   "name": "decode-big5",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple tool to decode big5 buffer to utf8 string.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "release": "yarn build && changeset publish",
+    "release": "yarn build && npm publish",
     "lint": "tsc"
   },
   "repository": {
